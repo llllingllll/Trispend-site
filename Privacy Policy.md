@@ -53,7 +53,7 @@ RevenueCat does not disclose this data to others. See their privacy policy: http
 
 ### 3) Apple (refund-assist data, only if you request a refund)
 
-If you request a **refund** for an in-app purchase made in {{APP_NAME}}, we may share necessary data with Apple about your **access/consumption** of the purchased content (e.g., unlock time, whether it was used) **solely** to help Apple assess the refund request, following Apple policies and the data-minimization principle.
+If you request a **refund** for an in-app purchase made in Trispend, we may share necessary data with Apple about your **access/consumption** of the purchased content (e.g., unlock time, whether it was used) **solely** to help Apple assess the refund request, following Apple policies and the data-minimization principle.
 
 ## 6. Your Choices & Rights
 
