@@ -37,7 +37,7 @@ Welcome to Trispend (“the App”). This policy explains what we collect, how w
 - Subscriptions renew automatically unless canceled **at least 24 hours** before the current period ends.
 - Restore Purchases will sync your Pro entitlement across devices.
 
-## 5. Third-Party Services (remove sections you don’t use)
+## 5. Third-Party Services
 
 ### 1) Google Firebase
 
