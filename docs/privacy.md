@@ -1,6 +1,6 @@
 # Privacy Policy
 
-Last updated: 2025-08-11
+Last updated: 2025-10-10
 
 Welcome to Trispend (“the App”). This policy explains what we collect, how we use it, how we store/share it, and the choices you have.
 
