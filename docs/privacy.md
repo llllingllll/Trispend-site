@@ -33,7 +33,7 @@ Welcome to Trispend (“the App”). This policy explains what we collect, how w
 
 ## 4. Subscriptions & In-App Purchases
 
-- We use App Store / StoreKit (and RevenueCat) to process purchases and entitlements.
+- We use App Store / StoreKit to process purchases and entitlements.
 - Subscriptions renew automatically unless canceled **at least 24 hours** before the current period ends.
 - Restore Purchases will sync your Pro entitlement across devices.
 
