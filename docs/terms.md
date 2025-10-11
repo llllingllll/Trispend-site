@@ -51,4 +51,3 @@ We may update these Terms from time to time. Material changes will be notified i
 
 ## 16. Contact
 Questions? Contact us at **trispendapp@gmail.com**.
-
