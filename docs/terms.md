@@ -14,10 +14,16 @@ You may use the Service only if you can form a binding contract and agree to the
 We grant you a personal, limited, non‑exclusive, non‑transferable license to use the App on Apple devices you own or control. You agree not to: reverse engineer or attempt to access the Service by unauthorized means; interfere with or disrupt the Service; upload unlawful or infringing content; or use the Service to send spam or abusive communications.
 
 ## 4. Data, Storage & Sync
-By default, expense data is stored on your device. If you upgrade and enable iCloud sync, your data may be stored in your iCloud account via CloudKit. Deleting local data **does not** remove copies in iCloud; final removal must be performed by you at the system level (see in‑app instructions). We cannot access your iCloud content. Availability depends on Apple iCloud and your network connection. Carrier data charges may apply and are your responsibility.
+Your expense data is stored **locally on your device** via SwiftData. The app does NOT currently sync data via iCloud or CloudKit. 
+
+- **Device Backups**: If you enable device backups (iCloud Backup or iTunes/Finder backup), your app data will be included in those backups.
+- **Data Export**: Pro users can export their data in CSV format for manual backup or transfer.
+- **Data Deletion**: Uninstalling the app will delete all local data. Restoring from a device backup may restore the data.
+
+Carrier data charges may apply for app downloads and updates, and are your responsibility.
 
 ## 5. Purchases, Subscriptions & Trials
-We use Apple’s App Store / StoreKit (and, if applicable, RevenueCat) to process purchases and entitlements. Prices may vary by region, taxes, and promotions. **Subscriptions auto‑renew** unless canceled at least **24 hours** before the end of the current period. You can manage or cancel in **Settings → Apple ID → Subscriptions**. “Restore Purchases” re‑activates eligible entitlements on your devices. Refunds are handled by Apple under App Store policies.
+We use Apple’s App Store / StoreKit to process purchases and entitlements. Prices may vary by region, taxes, and promotions. **Subscriptions auto‑renew** unless canceled at least **24 hours** before the end of the current period. You can manage or cancel in **Settings → Apple ID → Subscriptions**. “Restore Purchases” re‑activates eligible entitlements on your devices. Refunds are handled by Apple under App Store policies.
 
 ## 6. Changes to the Service
 We may add, change, or discontinue features at any time. We may limit or suspend access if needed for security, legal, or operational reasons.
