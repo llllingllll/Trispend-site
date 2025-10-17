@@ -1,6 +1,6 @@
 # Privacy Policy
 
-Last updated: 2025-10-10
+Last updated: 2025-10-17
 
 Welcome to Trispend (“the App”). This policy explains what we collect, how we use it, how we store/share it, and the choices you have.
 
@@ -8,11 +8,11 @@ Welcome to Trispend (“the App”). This policy explains what we collect, how w
 
 - **Account Info**: Your email and the minimal data returned by sign-in providers (e.g., Apple/Google) to authenticate your account.
 - **App Data**: Your locally/cloud-stored trips, expenses, categories, and participants.
-- **Diagnostics & Usage**: Crash logs, basic device info (OS version, model), and **optional** de-identified analytics to improve stability and features (analytics can be disabled in Settings).
+- **Diagnostics & Usage**: Crash logs via Firebase Crashlytics, basic device info (OS version, model), and **de-identified usage analytics** (e.g., app launches, feature usage) to improve stability and features.
 - **Purchase Info**: In-app purchase/entitlement status (e.g., Pro, expiration date). We do **not** store your credit card number.
 
-> We do not sell your personal data.
-> 
+> Note: Analytics data is collected automatically and cannot be disabled. Crash reporting is essential for app stability. No personally identifiable information is included in analytics events. We do not sell your personal data.
+
 
 ## 2. How We Use Information
 
@@ -24,9 +24,10 @@ Welcome to Trispend (“the App”). This policy explains what we collect, how w
 
 ## 3. Storage & Sync
 
-- **Local (Free users)**: Your data is stored on your device via **SwiftData**.
-- **iCloud Sync (Pro feature)**: Upgrading to Pro enables CloudKit sync across your devices.
-- **Deletion & Backups**: Deleting local data does not automatically remove copies in your iCloud account. **Final removal of iCloud data must be performed by you at the system level** (see in-app instructions).
+- **Local Storage**: Your data is stored on your device via **SwiftData** in a local database.
+- **No Cloud Sync**: Currently, the app does NOT sync data via iCloud. All data remains on your device unless you manually back up via device backup.
+- **Data Portability**: Pro users can export their data for backup purposes.
+- **Deletion**: Deleting the app will remove all local data. Device backups may retain copies depending on your backup settings.
 
 > We cannot access your iCloud contents. Sync depends on iCloud availability and network conditions.
 > 
@@ -59,13 +60,15 @@ If you request a **refund** for an in-app purchase made in Trispend, we may shar
 
 ## 7. Data Retention
 
-- Accounts & trip data: Retained until you delete your account/data or as required by law.
-- Purchase records: Retained for statutory tax/accounting periods.
-- Refund-related data: Retained only as needed to process the request.
+- **Local Data**: Trip and expense data stored on your device is retained until you delete it via the app or uninstall the app.
+- **Account Data**: Firebase Authentication records are retained until you delete your account through the app.
+- **Crash Logs**: Firebase Crashlytics retains crash logs for up to 90 days for debugging purposes.
+- **Purchase Records**: App Store transaction records are retained by Apple per their policies. We only store entitlement status (Pro/Free) locally.
+- **Analytics Data**: De-identified analytics data is retained for up to 14 months by Firebase.
 
 ## 8. Children
 
-The App is not directed to children under the age required by law. We do not knowingly collect children’s personal data.
+The App is not directed to children under 13 (or the minimum age required in your jurisdiction). We do not knowingly collect personal data from children. If you believe a child has provided us with personal information, contact us immediately.
 
 ## 9. International Transfers
 
