@@ -1,6 +1,6 @@
 # Terms of Use
 
-**Last updated:** 2025-10-10
+**Last updated:** 2025-10-17
 
 Welcome to Trispend. By using the app, you agree to these Terms.
 
