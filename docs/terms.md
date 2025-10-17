@@ -5,7 +5,7 @@
 Welcome to Trispend. By using the app, you agree to these Terms.
 
 ## 1. About the Service
-Trispend is an expense tracker for trips and everyday travel. It lets you record expenses, view summaries, and (if enabled) collaborate and sync across devices. 
+Trispend is an expense tracker for trips and everyday travel. It lets you record expenses, view summaries, manage categories and payment methods, and split costs among participants. 
 
 ## 2. Eligibility & Account
 You may use the Service only if you can form a binding contract and agree to these Terms and our Privacy Policy. You must be at least 13 years old (or the age required in your jurisdiction). Keep your device and sign‑in credentials secure. You are responsible for activity under your account.
@@ -32,7 +32,14 @@ We may add, change, or discontinue features at any time. We may limit or suspend
 You retain ownership of the expense data and content you input. You grant us a limited license to process that content solely to operate and improve the Service. Trispend, its name, logos, and software are protected by intellectual‑property laws. All rights not expressly granted are reserved.
 
 ## 8. Third‑Party Services
-The Service may integrate with third‑party services (e.g., Apple iCloud, Sign in with Apple/Google, Firebase Authentication/Crashlytics, RevenueCat). Their terms and privacy policies apply to their components.
+The Service integrates with the following third‑party services:
+- **Sign in with Apple / Google**: For account authentication
+- **Firebase Authentication**: For Google sign-in and email authentication
+- **Firebase Crashlytics**: For crash reporting and diagnostics
+- **Firebase Analytics**: For usage analytics
+- **Apple StoreKit**: For in-app purchases and subscriptions
+
+Their respective terms and privacy policies apply to their components. We are not responsible for the practices of these third-party services.
 
 ## 9. Privacy
 Our handling of information is described in the Privacy Policy, incorporated by reference.
