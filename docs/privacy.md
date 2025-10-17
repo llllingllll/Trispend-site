@@ -29,9 +29,6 @@ Welcome to Trispend (“the App”). This policy explains what we collect, how w
 - **Data Portability**: Pro users can export their data for backup purposes.
 - **Deletion**: Deleting the app will remove all local data. Device backups may retain copies depending on your backup settings.
 
-> We cannot access your iCloud contents. Sync depends on iCloud availability and network conditions.
-> 
-
 ## 4. Subscriptions & In-App Purchases
 
 - We use App Store / StoreKit to process purchases and entitlements.
@@ -42,9 +39,9 @@ Welcome to Trispend (“the App”). This policy explains what we collect, how w
 
 ### 1) Google Firebase
 
-We use **Firebase Crashlytics** (crash reporting), **Firebase Authentication** (Google/email sign-in), and optionally **Remote Config / In-App Messaging**.
+We use Firebase Crashlytics (crash reporting), Firebase Authentication (Google/email sign-in), and optionally Remote Config / In-App Messaging.
 
-When you sign up/sign in, **your email (and minimal info from the provider)** is processed by Firebase for authentication. Crash and analytics data are collected in a de-identified or device-level form to improve stability and features. You can disable Analytics in the app (crash reporting may remain for safety/stability).
+When you sign up/sign in, your email (and minimal info from the provider) is processed by Firebase for authentication. Crash and analytics data are collected in a de-identified or device-level form to improve stability and features. **Analytics and crash reporting are collected automatically to ensure app quality and cannot be disabled by users.**
 
 ### 2) Apple (refund-assist data, only if you request a refund)
 
