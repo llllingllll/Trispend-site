@@ -1,6 +1,6 @@
 # Terms of Use
 
-**Last updated:** 2025-10-17
+**Last updated:** 2025-10-25
 
 Welcome to Trispend. By using the app, you agree to these Terms.
 
@@ -35,8 +35,6 @@ You retain ownership of the expense data and content you input. You grant us a l
 The Service integrates with the following third‑party services:
 - **Sign in with Apple / Google**: For account authentication
 - **Firebase Authentication**: For Google sign-in and email authentication
-- **Firebase Crashlytics**: For crash reporting and diagnostics
-- **Firebase Analytics**: For usage analytics
 - **Apple StoreKit**: For in-app purchases and subscriptions
 
 Their respective terms and privacy policies apply to their components. We are not responsible for the practices of these third-party services.
