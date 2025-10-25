@@ -35,7 +35,7 @@ Welcome to Trispend ("the App"). This policy explains what we collect, how we us
 ## 5. Third-Party Services
 
 ### 1) Firebase Authentication
-We use Firebase Authentication for Google and email sign-in. When you sign up/sign in, your email (and minimal info from the provider) is processed by Firebase for authentication purposes only. **No analytics or crash data is collected.**
+We use Firebase Authentication for Google and email sign-in. When you sign up/sign in, your email (and minimal info from the provider) is processed by Firebase for authentication purposes only. No analytics or crash data is collected.
 
 ### 2) Apple (refund-assist data, only if you request a refund)
 If you request a **refund** for an in-app purchase made in Trispend, we may share necessary data with Apple about your **access/consumption** of the purchased content (e.g., unlock time, whether it was used) **solely** to help Apple assess the refund request, following Apple policies and the data-minimization principle.
